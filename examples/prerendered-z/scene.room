@@ -1,0 +1,58 @@
+{
+  "Ident": "ROOM",
+  "Id": "Room0000",
+  "Name": "Sample With ZBuffer",
+  "Description": "A nice and fancy town",
+  "ScriptFile": "examples/prerendered-z/scene.jsc",
+  "MapFile": "examples/prerendered-z/scene.jsm",
+  "MapTextureFile": "examples/prerendered-z/scene.png",
+  "MapZBufferFile": "examples/prerendered-z/scene-zbuffer.jsm",
+  "MapZBufferTextureFile": "examples/prerendered-z/scene-zbuffer.png",
+  "WalkmeshFile": "examples/prerendered-z/scene.jwm",
+  "Camera": {
+    "Matrix": [-0.38940849900245667, 0.0, 0.31637516617774963, 0.0, 0.05515754967927933, 0.4940452575683594, 0.06789033859968185, 0.0, -0.3115299344062805, 0.0874725952744484, -0.38344478607177734, 0.0, -1.6969642639160156, -4.429647445678711, -2.1522560119628906, 1.0],
+    "Fovy": 39,
+    "Near": 0.1,
+    "Far": 10,
+    "MinClipOffsetX": -1.06,
+    "MinClipOffsetY": -0.16,
+    "MaxClipOffsetX": 1.06,
+    "MaxClipOffsetY": 0.16
+  },
+  "Controller": {
+    "JAMFile": "examples/prerendered-z/barret.jam",
+    "TextureFile": "examples/prerendered-z/barret.png",
+    "Radius": 0.02,
+    "Height": 1
+  },
+  "Spawns": [{
+    "Name": "Spawn0000",
+    "PositionX": -0.17481517791748047,
+    "PositionY": -4.842235565185547,
+    "PositionZ": -1.1995716094970703,
+    "DirectionX": 1,
+    "DirectionZ": 0
+  }],
+  "Models": [{
+    "JAMFile": "examples/prerendered-z/unit.jam",
+    "TextureFile": "examples/prerendered-z/unit.png",
+    "PositionX": 15,
+    "PositionY": -13.5,
+    "PositionZ": -23,
+    "RotationX": 0,
+    "RotationY": 3.14,
+    "RotationZ": 0,
+    "Radius": 0.80,
+    "Height": 1,
+    "OnActionBlockId": "0000"
+  }],
+  "Motions": [{
+    "Points": [
+      [15, -13.5, -23],
+      [16, -13.5, -23],
+      [17, -13.5, -23],
+      [17, -13.5, -22]
+    ]
+  }],
+  "Triggers": []
+}
