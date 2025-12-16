@@ -9,6 +9,9 @@
   "MapFile": "examples/iso/scene.jsm",
   "MapTextureFile": "examples/iso/scene.png",
   "Camera": {
+    "Matrix": [0.7071, 0.0000,  0.7071, 0.0000, 0.3546, 0.8652, -0.3546, 0.0000, -0.6118, 0.5015,  0.6118, 0.0000, -7.3046, 4.9583,  5.6356, 1.0000],
+    "OrthoDepth": 100,
+    "OrthoSize": 8.4,
     "MinClipOffsetX": 0,
     "MinClipOffsetY": 0,
     "MaxClipOffsetX": 0,
@@ -22,13 +25,13 @@
     "OffsetX": 8,
     "OffsetY": 16
   },
-  "Spawns": [{
+  "Spawn": {
     "Name": "Spawn0000",
     "PositionX": 1.4345,
     "PositionY":-1.5012,
-    "PositionZ":-3.4306 ,
+    "PositionZ":-3.4306,
     "Direction": "LEFT"
-  }],
+  },
   "Models": [{
     "JASFile": "examples/iso/princess.jas",
     "TextureFile": "examples/iso/princess.png",
@@ -41,7 +44,5 @@
     "OffsetY": 17.5,
     "Direction": "LEFT",
     "OnActionBlockId": "0000"
-  }],
-  "Movers": [],
-  "Triggers": []
+  }]
 }

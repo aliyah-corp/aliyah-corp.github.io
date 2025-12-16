@@ -51,7 +51,6 @@ body {
   transform-origin: top left;
   user-select: none;
   box-sizing: content-box;
-  border: 5px solid rgb(0 0 0 / 54%);
 }
 
 #APP.scanlines::before {
