@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="examples/rpg/styles.css">
   <link rel="stylesheet" type="text/css" href="examples/triple-triad/styles.css">
   <link rel="stylesheet" type="text/css" href="examples/fight/styles.css">
-  <script type="module" src="index.js"></script>
+  <script type="module" src="src/main.js"></script>
   <title>ArcadeGPU Playground</title>
   <link rel="icon" href="textures/favicon.ico">
   <link rel="icon" type="image/jpeg" href="textures/favicon.png">
@@ -23,11 +23,21 @@
       src: url(../fonts/PressStart2PRegular.otf) format("truetype");
     }
 
-    h1 {
-      margin-bottom:10px;
+    #TITLE {
+      background-color:#656565;
+      color:white;
+      text-align:center;
+      width: 600px;
+      font-size:18px;
+      margin:0 auto;
+      margin-top: 15px;
     }
-    center {
-      margin-bottom:10px;
+
+    #LOGO {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
     }
 
     #APP {
@@ -37,14 +47,12 @@
     #UI_ROOT * {
       font-family: "Press Start 2P";
     }
-
-    .u-filter-greyscale {
-      filter: grayscale(100%);
-    }
   </style>
 </head>
 
 <body>
+  <h1 id="TITLE">Demonstrations build with ArcadeGPU</h1>
+  <img id="LOGO" src="textures/logo.png" alt="ArcadeGPU" />
   <div id="APP">
     <div id="APP_FAIL"></div>
     <canvas id="CANVAS_3D" width="1px" height="1px"></canvas>
