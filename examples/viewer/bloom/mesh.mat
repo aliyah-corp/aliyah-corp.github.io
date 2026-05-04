@@ -1,7 +1,7 @@
 {
     "Ident": "MAT",
     "Flipbooks": [],
-    "SParams": [
+    "CustomParams": [
         {
             "Name": "S00",
             "Value": 0.0
@@ -68,35 +68,28 @@
         }
     ],
     "Id": 0,
-    "NormalIntensity": 1.0,
-    "Lightning": false,
-    "Ambient": [
-        0.5,
-        0.5,
-        0.5
-    ],
-    "Diffuse": [
-        1.0,
-        1.0,
-        1.0
-    ],
-    "Specular": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "Emissive": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "Blend": [
-        1.0,
-        1.0,
-        1.0,
-        0.7
-    ],
-    "Texture": "./textures/default_noise.jpg",
+    "NormalMapIntensity": 1.0,
+    "LightEnabled": false,
+    "AmbientR": 0.5,
+    "AmbientG": 0.5,
+    "AmbientB": 0.5,
+    "DiffuseR": 1.0,
+    "DiffuseG": 1.0,
+    "DiffuseB": 1.0,
+    "SpecularR": 0.0,
+    "SpecularG": 0.0,
+    "SpecularB": 0.0,
+    "SpecularFactor": 0.0,
+    "EmissiveR": 0.0,
+    "EmissiveG": 0.0,
+    "EmissiveB": 0.0,
+    "EmissiveFactor": 1.0,
+    "BlendColorR": 1.0,
+    "BlendColorG": 1.0,
+    "BlendColorB": 1.0,
+    "BlendColorMode": 0.0,
+    "Opacity": 0.7,
+    "Texture": "./examples/viewer/bloom/default_noise.jpg",
     "TextureScrollAngle": 0.0,
     "TextureScrollRate": 100,
     "DisplacementMap": "",
@@ -116,10 +109,8 @@
     "ToonMap": "",
     "DecalEnabled": false,
     "ShadowEnabled": false,
-    "Shininess": 0.0,
-    "EmissiveFactor": 1.0,
-    "ToonBlending": 1.0,
-    "FacingAlphaBlend": 0.8999999761581421,
+    "ToonMapOpacity": 1.0,
+    "AlphaBlendFacing": 0.8999999761581421,
     "S0Texture": "",
     "S1Texture": ""
 }
